@@ -25,7 +25,7 @@ const mat = new THREE.MeshStandardMaterial({
     transparent: true,
     opacity: 1.0
 });
-const wireMat = new THREE.MeshStandardMaterial({
+const wireMat = new THREE.MeshBasicMaterial({
     color: 0xffffff,
     wireframe: true,
 })
